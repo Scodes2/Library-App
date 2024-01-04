@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="638.0" prefWidth="832.0" style="-fx-background-color: Burlywood;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookstore.LoginScreenController">
+   <children>
+      <TextField fx:id="usernameInput" layoutX="257.0" layoutY="311.0" prefHeight="33.0" prefWidth="318.0" promptText="Enter Username" style="-fx-background-color: cornsilk;" />
+      <PasswordField fx:id="passwordInput" layoutX="257.0" layoutY="362.0" prefHeight="33.0" prefWidth="318.0" promptText="Enter Password" style="-fx-background-color: cornsilk;" />
+      <Button fx:id="loginButton" layoutX="366.0" layoutY="476.0" mnemonicParsing="false" onAction="#checkUser" text="Login">
+         <font>
+            <Font name="Book Antiqua" size="25.0" />
+         </font>
+      </Button>
+      <Text layoutX="301.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the Bookstore on Lane 38" textAlignment="CENTER" wrappingWidth="231.65234375">
+         <font>
+            <Font name="Book Antiqua Italic" size="39.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="184.0" fitWidth="184.0" layoutX="39.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bookstoreLogo.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" alignment="CENTER" layoutX="223.0" layoutY="431.0" prefHeight="17.0" prefWidth="387.0" textAlignment="CENTER" textFill="#d01212">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

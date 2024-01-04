@@ -1,0 +1,6 @@
+guy1	pass1	John	50
+guy2	pass2	Paul	150
+guy3	pass3	Sim	2000
+userr	userr	Tim	300
+test	test	Brawl	1500
+try	wert	try	0
